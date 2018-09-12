@@ -1,0 +1,69 @@
+/*  Grilla */
+
+.container {
+    display: grid;
+    /* grid-template-columns: repeat(5, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+div.frase {
+    /* position: relative; */
+}
+
+img {
+    width: 100%;
+    /* position: absolute; */
+    bottom: 0;
+    background-color: dimgray;
+}
+
+/* Tipografia */
+h1, p {
+    font-weight: normal;
+    font-family: suecaslabmedium;
+}
+
+h1.numero {
+    font-size: 20px;
+    margin: 20px 0;
+    width: 40px;
+    line-height: 30px;
+    padding-top: 3px;
+    height: 40px;
+    background-color: yellow;
+    border: solid 1px black;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+h2.nombre {
+    font-family: suecananobold;
+    font-size: 20px;
+    line-height: 20px;
+    /* position: absolute; */
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+h3.profesion {
+    font-family: suecananolight;
+    font-size: 16px;
+    line-height: 16px;
+    /* position: absolute; */
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p.texto {
+    font-size: 16.5px;
+    line-height: 22px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    /* position: absolute; */
+    text-align: center;
+}
